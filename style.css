@@ -1,0 +1,11 @@
+:root {
+  --lightness: 50%; /* Initial værdi for lightness */
+}
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(120, 100%, var(--lightness));
+}
